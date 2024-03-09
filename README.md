@@ -1,8 +1,26 @@
-# React + Vite
+# Simple React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an initial project developed as part of the React course by the DoDev Community. The calculator allows the user to input two numbers and select an operation to perform.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- Bootstrap
+- Sass
+
+## Features
+
+- **Sum:** Adds two input numbers together.
+- **Subtraction:** Subtracts the second number from the first.
+- **Multiplication:** Multiplies the two input numbers.
+- **Division:** Divides the first number by the second.
+
+## Project Structure
+
+- `src/`
+  - `components/`: Contains the React components of the application.
+  - `App.jsx`: The main component of the application.
+  - `index.js`: Entry file of the application.
+
+Hosted Link: [Simple React Calculator]([https://example.com](https://flavioxe.github.io/calculator/)https://flavioxe.github.io/calculator/)
