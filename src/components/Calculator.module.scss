@@ -1,14 +1,21 @@
 
 .inputWrapper {
-    gap: 1.5rem;
-    
-    .inputText {
-        color: rgb(104, 87, 104);
-    }
-    
+    gap: 1.5rem;    
+}
+
+.inputText {
+    color: rgb(104, 87, 104);
+}
+
+.operatorsWrapper {
+    margin-top: 1.5rem;
 }
 
 .resultText {
     color: rgb(146, 107, 146);
     margin-top: 1.5rem;
+}
+
+.buttonsWrapper {
+    gap: 1rem;
 }
