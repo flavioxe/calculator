@@ -23,4 +23,4 @@ This is an initial project developed as part of the React course by the DoDev Co
   - `App.jsx`: The main component of the application.
   - `index.js`: Entry file of the application.
 
-Hosted Link: [Simple React Calculator]([https://example.com](https://flavioxe.github.io/calculator/)https://flavioxe.github.io/calculator/)
+Hosted Link: [Simple React Calculator](https://flavioxe.github.io/calculator/)
