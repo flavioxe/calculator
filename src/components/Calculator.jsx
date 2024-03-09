@@ -14,6 +14,22 @@ export function Caulculator() {
     setSecondNumber(Number(e.target.value));
   }
 
+  function handleSum() {
+    setResult(firstNumber + secondNumber);
+  }
+
+  function handleMinus() {
+    setResult(firstNumber - secondNumber);
+  }
+
+  function handleMultiplication() {
+    setResult(firstNumber * secondNumber);
+  }
+
+  function handleDivide() {
+    setResult(firstNumber / secondNumber);
+  }
+
   return (
     <>
       <section className={`${styles.inputWrapper} d-flex align-items-center`}>
@@ -44,34 +60,10 @@ export function Caulculator() {
         <p className={styles.inputText}>Choose the operation:</p>
 
         <main className={`${styles.buttonsWrapper} d-flex align-items-center`}>
-          <button
-            onClick={() => {
-              setResult(firstNumber + secondNumber);
-            }}
-          >
-            +
-          </button>
-          <button
-            onClick={() => {
-              setResult(firstNumber - secondNumber);
-            }}
-          >
-            -
-          </button>
-          <button
-            onClick={() => {
-              setResult(firstNumber * secondNumber);
-            }}
-          >
-            *
-          </button>
-          <button
-            onClick={() => {
-              setResult(firstNumber / secondNumber);
-            }}
-          >
-            /
-          </button>
+          <button onClick={handleSum}>+</button>
+          <button onClick={handleMinus}>-</button>
+          <button onClick={handleMultiplication}>*</button>
+          <button onClick={handleDivide}>/</button>
         </main>
       </section>
 
